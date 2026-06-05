@@ -22,7 +22,7 @@
             height: 100%;
             width: 100%;
             overflow: hidden;
-            /* Background layar diubah menjadi putih */
+            /* Background layar aplikasi utama putih */
             background-color: #ffffff;
         }
         iframe {
@@ -50,11 +50,13 @@
     </style>
 </head>
 <body>
+
     <div id="loader">Memuat Aplikasi Mohon Tunggu..Silahkan Refresh Jika Koneksi Terputus...</div>
     
     <iframe 
         src="https://script.google.com/macros/s/AKfycbx_M4H95mDw_t3hwMonA97DmAKUj76WkInq5evSXQNFAK8yhEgSPrZ0rdGmycu8ohs8JA/exec" 
         onload="document.getElementById('loader').style.display='none';">
     </iframe>
+
 </body>
 </html>
